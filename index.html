@@ -820,19 +820,13 @@ h1, h2, h3 { letter-spacing: -1.5px; font-weight: 900; }
                     </div>
                 </div>
             </div>
-
-            <div class="contact-form-wrapper reveal delay-1">
-                <form class="contact-form" action="https://web3forms.com/submit" methods="POST">
-                     
-                  <input type="hidden" name="access_key" value="ab2fa548-adc0-435f-bda1-99bde3f81616"
-                 
-                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
-                  
-                    <div class="form-group"><label>Your Name</label><input type="text" placeholder="Nama lo" required></div>
-                    <div class="form-group"><label>Email Address</label><input type="email" placeholder="email@contoh.com" required></div>
-                    <div class="form-group"><label>Message</label><textarea rows="4" placeholder="Ceritain project lo..." required></textarea></div>
-                    <button type="submit" class="btn-submit">SEND MESSAGE →</button>
-                </form>
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="d7d82b37-9c95-4fcc-85d7-2470e9973540">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Send message</button>
+</form>
             </div>
         </div>
     </div>
