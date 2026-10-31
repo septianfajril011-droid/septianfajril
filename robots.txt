@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
+# Izin untuk Bot AI (ChatGPT, Perplexity, dll)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
 Sitemap: https://septianfajril.vercel.app/sitemap.xml
